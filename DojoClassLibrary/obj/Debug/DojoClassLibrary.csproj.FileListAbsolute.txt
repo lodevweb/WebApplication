@@ -1,0 +1,7 @@
+C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\bin\Debug\DojoClassLibrary.dll
+C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\bin\Debug\DojoClassLibrary.pdb
+C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\obj\Debug\DojoClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\obj\Debug\DojoClassLibrary.dll
+C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\obj\Debug\DojoClassLibrary.pdb
+C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\bin\Debug\DojoClassLibrary.dll.config
+C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\obj\Debug\DojoClassLibrary.csprojAssemblyReference.cache

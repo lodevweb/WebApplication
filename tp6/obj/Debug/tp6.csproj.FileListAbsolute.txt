@@ -1,0 +1,3 @@
+C:\Users\lo\source\repos\WebApplication\tp6\obj\Debug\tp6.Migrations.Initial.resources
+C:\Users\lo\source\repos\WebApplication\tp6\obj\Debug\tp6.csproj.GenerateResource.cache
+C:\Users\lo\source\repos\WebApplication\tp6\obj\Debug\tp6.csproj.CoreCompileInputs.cache

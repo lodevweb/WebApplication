@@ -1,0 +1,6 @@
+C:\Users\lo\source\repos\WebApplication\PizzaClassLibrary\bin\Debug\PizzaClassLibrary.dll
+C:\Users\lo\source\repos\WebApplication\PizzaClassLibrary\bin\Debug\PizzaClassLibrary.pdb
+C:\Users\lo\source\repos\WebApplication\PizzaClassLibrary\obj\Debug\PizzaClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\lo\source\repos\WebApplication\PizzaClassLibrary\obj\Debug\PizzaClassLibrary.dll
+C:\Users\lo\source\repos\WebApplication\PizzaClassLibrary\obj\Debug\PizzaClassLibrary.pdb
+C:\Users\lo\source\repos\WebApplication\PizzaClassLibrary\obj\Debug\PizzaClassLibrary.csprojAssemblyReference.cache
