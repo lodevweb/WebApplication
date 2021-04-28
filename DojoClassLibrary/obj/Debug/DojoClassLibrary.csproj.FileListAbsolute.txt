@@ -4,4 +4,3 @@ C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\obj\Debug\DojoClassLibr
 C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\obj\Debug\DojoClassLibrary.dll
 C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\obj\Debug\DojoClassLibrary.pdb
 C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\bin\Debug\DojoClassLibrary.dll.config
-C:\Users\lo\source\repos\WebApplication\DojoClassLibrary\obj\Debug\DojoClassLibrary.csprojAssemblyReference.cache

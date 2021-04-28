@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DojoClassLibrary
 {
-    class ArtMartial : IdEntity
+    public class ArtMartial : IdEntity
     {
         public string Nom { get; set; }
     }

@@ -1,6 +1,9 @@
-﻿using System;
+﻿using DojoClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+using System.Data.Entity.Validation;
 using System.Linq;
 using System.Web;
 
@@ -19,8 +22,17 @@ namespace tp6.Data
         {
         }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Samourai>().HasOptional(s => s.Arme);
+            modelBuilder.Entity<Samourai>().HasMany(x => x.ArtMartials).WithMany();
+        }
+
+
         public System.Data.Entity.DbSet<DojoClassLibrary.Samourai> Samourais { get; set; }
 
         public System.Data.Entity.DbSet<DojoClassLibrary.Arme> Armes { get; set; }
+
+        public System.Data.Entity.DbSet<DojoClassLibrary.ArtMartial> ArtMartials { get; set; }
     }
 }

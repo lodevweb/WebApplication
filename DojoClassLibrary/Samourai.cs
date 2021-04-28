@@ -7,6 +7,6 @@ namespace DojoClassLibrary
         public int Force { get; set; }
         public string Nom { get; set; }
         public virtual Arme Arme { get; set; }
-        public virtual List<ArtMartial> ArtMartiaux { get; set; } = new List<ArtMartial>();
+        public virtual List<ArtMartial> ArtMartials { get; set; } = new List<ArtMartial>();
     }
 }

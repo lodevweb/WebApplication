@@ -127,6 +127,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ArmesController.cs" />
+    <Compile Include="Controllers\ArtMartialsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SamouraisController.cs" />
     <Compile Include="Data\tp6Context.cs" />
@@ -137,11 +138,23 @@
     <Compile Include="Migrations\202104261351082_Initial.Designer.cs">
       <DependentUpon>202104261351082_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104271727094_ArtMartiaux.cs" />
+    <Compile Include="Migrations\202104271727094_ArtMartiaux.Designer.cs">
+      <DependentUpon>202104271727094_ArtMartiaux.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104280922490_ArtMartials1.cs" />
+    <Compile Include="Migrations\202104280922490_ArtMartials1.Designer.cs">
+      <DependentUpon>202104280922490_ArtMartials1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\SamouraiViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\tp6Context-20210426154253.mdf" />
+    <Content Include="App_Data\tp6Context-20210426154253_log.ldf">
+      <DependentUpon>tp6Context-20210426154253.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -189,10 +202,13 @@
     <Content Include="Views\Armes\Index.cshtml" />
     <Content Include="Views\Samourais\_CreateEditSamourai.cshtml" />
     <Content Include="Views\Samourais\_DetailDeleteSamourai.cshtml" />
+    <Content Include="Views\ArtMartiaux\Create.cshtml" />
+    <Content Include="Views\ArtMartiaux\Delete.cshtml" />
+    <Content Include="Views\ArtMartiaux\Details.cshtml" />
+    <Content Include="Views\ArtMartiaux\Edit.cshtml" />
+    <Content Include="Views\ArtMartiaux\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -218,6 +234,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202104261351082_Initial.resx">
       <DependentUpon>202104261351082_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104271727094_ArtMartiaux.resx">
+      <DependentUpon>202104271727094_ArtMartiaux.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104280922490_ArtMartials1.resx">
+      <DependentUpon>202104280922490_ArtMartials1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
